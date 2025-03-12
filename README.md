@@ -32,9 +32,12 @@ python main.py
 ```
 
 ## 📌 Project Flow
-1️⃣ **Summarize** the financial transcript using LongT5.
-2️⃣ **Send** the summarized data to Mistral via the LM Studio API.
-3️⃣ **Extract** structured financial insights in JSON format.
+1️⃣ Extract transcripts from all YouTube videos.
+2️⃣ Summarize the financial transcript using LongT5.
+3️⃣ Send the summarized data to Mistral via the LM Studio API.
+4️⃣ Extract structured financial insights in JSON format.
+
+✅ Database Used: MongoDB
 
 ## 📬 API Response Format
 ```json
