@@ -6,18 +6,12 @@ This project processes financial transcripts using a combination of:
 - **Mistral** (via LM Studio API) for extracting financial insights in a structured JSON format.
 
 ## 🏗️ Setup Instructions
-### 1️⃣ Prerequisites
+### Prerequisites
 Ensure you have the following installed:
 - Python (>=3.8)
 - Pip
 - LM Studio (running on `http://192.168.0.106:1234/v1/chat/completions`)
 - Required Python libraries
-
-### Clone the Repository
-```sh
-git clone https://github.com/your-repo/financial-transcript-analysis.git
-cd financial-transcript-analysis
-```
 
 ### Install Dependencies
 ```sh
