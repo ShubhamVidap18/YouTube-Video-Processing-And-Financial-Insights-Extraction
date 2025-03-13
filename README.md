@@ -1,5 +1,20 @@
 # Financial Transcript Analysis with LongT5 and Mistral
 
+##Tasks performed successfully - 
+✅ YouTube Data Extraction:
+-Extracted transcripts & metadata from @theteslaguy3247 using yt-dlp
+-Stored data in MongoDB
+
+✅ Prompt Engineering & Analysis:
+-Used an 8B+ parameter model (Mistral 7B) in LM Studio
+-Extracted JSON fields (narrative, direction, Support, Resistance, Buy_Area, Sell_Area)
+-Stored processed data in MongoDB
+
+✅ RAG-based Query System (Bonus): (Partially Developed/Ongoing)
+-Partially implementated RAG-based retrieval with pandas queries
+-Partially Visualized results using Plotly Dash & Streamlit
+-Partially Demonstrated query-based plots for Buy/Sell areas
+
 ## 📌 Project Overview
 This project processes financial transcripts using a combination of:
 - **LongT5** (Google's long-text Transformer model) for summarization.
