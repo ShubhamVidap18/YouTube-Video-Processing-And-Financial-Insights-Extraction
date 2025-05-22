@@ -1,3 +1,15 @@
+"""
+This module provides functions for:
+1. Summarizing long financial transcripts using Google's LongT5 model.
+2. Sending the summarized transcript to a local LM Studio API endpoint (e.g., running Mistral or other chat models)
+   for structured financial analysis.
+
+Main Functionalities:
+- `summarize_transcript(transcript)`: Uses a transformer model to reduce lengthy financial transcripts.
+- `process_transcript_with_mistral(transcript, model, temperature)`: Extracts structured financial insights
+  such as support/resistance levels, trade directions, and price zones using an LLM via API.
+"""
+
 import requests
 import json
 import re  # For extracting valid JSON if needed
