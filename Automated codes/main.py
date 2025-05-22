@@ -1,3 +1,18 @@
+"""
+YouTube Financial Video Analyzer
+
+This script extracts videos from a specified YouTube channel, filters them by date and keyword,
+downloads their transcripts, summarizes the content using a T5 model, analyzes the summarized 
+content using a Mistral API to extract structured financial insights, and stores the results in MongoDB.
+
+Dependencies:
+- yt_dlp: For YouTube metadata and video list extraction
+- youtube_transcript_api: For fetching transcripts
+- transformers: For using the T5 summarization model
+- pymongo: For MongoDB operations
+- mistral_api: Custom API for financial insight extraction from text
+"""
+
 from mistral_api import process_transcript_with_mistral
 from pymongo import MongoClient
 import yt_dlp
