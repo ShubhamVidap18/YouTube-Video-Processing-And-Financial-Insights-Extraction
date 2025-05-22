@@ -76,8 +76,3 @@ python main.py
   ```sh
   print(response.text)
   ```
-
-
-## 📞 Contact
-For support, open an issue or reach out at `shubhamvidap18@gmail.com`.
-
